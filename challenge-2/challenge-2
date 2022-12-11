@@ -13,11 +13,27 @@ Hints
 
 #Solution:
 
-Pre-requisite
+Steps: 
 
 1) Install python
 
-
+sudo yum update -y
+sudo yum install python3
+python --version 
+==> Python 2.7.18
 
 2) Install pip
 
+sudo yum install pip
+pip --version 
+==> pip 20.2.2 from /usr/lib/python2.7/site-packages/pip (python 2.7)
+
+3) create python metadata_script.py 
+
+4) execute python script & save output as metadata_output
+
+==> python metadata_script.py > metadata_output
+
+Amazon EC2 Instances have metadata they can access on http://169.254.169.254/latest/meta-data
+
+Note: for metadata_script.py &  metadata_output refer challenge-2 directory. 
