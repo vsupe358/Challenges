@@ -7,7 +7,7 @@ Deployed entire Infrasturecture in N.Virginia (us-east-1) Region
   2. Availability Zones (Az's) = (us-east-1a | us-east-1b | us-east-1c)
   3. 3-public-subnets (demo-vpc-public-us-east-1a | demo-vpc-public-us-east-1b | demo-vpc-public-us-east-1c)
   4. 3-app-subnets (demo-vpc-private-us-east-1a | demo-vpc-private-us-east-1b | demo-vpc-private-us-east-1c)
-  5. 3-database-subnets (demo-vpc-db-us-east-1a | demo-vpc-db-us-east-1b | demo-vpc-db-us-east-1a)
+  5. 3-database-subnets (demo-vpc-db-us-east-1a | demo-vpc-db-us-east-1b | demo-vpc-db-us-east-1c)
   
  # Infrastructure Components:
  1. EC2 php server's configured in Autoscalling groups. (demo-asg1 | demo-asg2)
