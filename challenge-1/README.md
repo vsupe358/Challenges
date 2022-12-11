@@ -3,7 +3,7 @@
 Deployed entire Infrasturecture in N.Virginia (us-east-1) Region
 
 # Networking Services :
-  1. VPC (demo-vpc) = 10.0.0.0/16 CIDR
+  1. VPC (demo-vpc) | vpc_cidr = 10.0.0.0/16
   2. Availability Zones (Az's) = (us-east-1a | us-east-1b | us-east-1c)
   3. 3-public-subnets (demo-vpc-public-us-east-1a | demo-vpc-public-us-east-1b | demo-vpc-public-us-east-1c)
   4. 3-app-subnets (demo-vpc-private-us-east-1a | demo-vpc-private-us-east-1b | demo-vpc-private-us-east-1c)
