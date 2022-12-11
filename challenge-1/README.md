@@ -1,6 +1,4 @@
-# AWS-3-tier-Architecture-using-Terraform-Deployment
-
-#Provision three tier architecture on AWS using Terraform#
+# Provisioning-AWS-3-Tier-Architecture-using-Terraform-Deployment
 
 Deployed entire Infrasturecture in N.Virginia (us-east-1) Region
 
